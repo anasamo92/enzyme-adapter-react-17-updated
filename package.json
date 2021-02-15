@@ -10,6 +10,10 @@
     "test": "yarn lint",
     "watch": "yarn build -w"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anasamo92/enzyme-adapter-react-17-updated.git"
+  },
   "keywords": [
     "javascript",
     "shallow rendering",
