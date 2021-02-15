@@ -1,6 +1,6 @@
 {
   "name": "enzyme-adapter-react-17-updated",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "build",
   "scripts": {
     "build": "babel --source-maps=both src -d build",
