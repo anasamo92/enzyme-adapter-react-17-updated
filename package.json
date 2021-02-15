@@ -7,7 +7,7 @@
     "clean": "rimraf build",
     "lint": "eslint --ext js,jsx .",
     "prepack": "yarn clean && yarn build",
-    "test": "yarn lint",
+    "test": "echo \"No test specified\"",
     "watch": "yarn build -w"
   },
   "np": {
