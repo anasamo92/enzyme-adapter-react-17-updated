@@ -10,6 +10,10 @@
     "test": "echo \"No test specified\"",
     "watch": "yarn build -w"
   },
+  "np": {
+    "branch": "main",
+    "contents": "."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anasamo92/enzyme-adapter-react-17-updated.git"
