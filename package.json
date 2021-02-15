@@ -7,7 +7,7 @@
     "clean": "rimraf build",
     "lint": "eslint --ext js,jsx .",
     "prepack": "yarn clean && yarn build",
-    "test": "yarn lint",
+    "test": "echo \"No test specified\"",
     "watch": "yarn build -w"
   },
   "repository": {
@@ -46,13 +46,13 @@
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.12.13",
-    "@babel/core": "^7.12.13",
+    "@babel/cli": "^7.12.16",
+    "@babel/core": "^7.12.16",
     "@babel/runtime": "^7.12.13",
     "babel-plugin-transform-replace-object-assign": "^2.0.0",
     "babel-preset-airbnb": "^5.0.0",
     "enzyme": "^3.11.0",
-    "eslint": "^7.19.0",
+    "eslint": "^7.20.0",
     "eslint-config-wojtekmaj": "^0.5.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
